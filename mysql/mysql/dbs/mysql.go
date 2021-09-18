@@ -1,12 +1,5 @@
 package dbs
 
-import (
-	"database/sql"
-	"fmt"
-	"log"
-	"time"
-)
-
 /*
 create table users
 (
