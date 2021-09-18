@@ -1,4 +1,4 @@
-package grama
+package main
 
 func main() {
 	println("hello world")
