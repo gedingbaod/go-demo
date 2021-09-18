@@ -1,6 +1,8 @@
 package main
 
-import "mysql/dbs"
+import (
+	"mysql/dbs" //这个是相对路径
+)
 
 func main() {
 

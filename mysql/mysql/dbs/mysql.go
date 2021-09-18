@@ -3,6 +3,23 @@ package dbs
 import (
 	"database/sql"
 	"fmt"
+	"log"
+	"time"
+)
+
+/*
+create table users
+(
+	id int unsigned auto_increment
+		primary key,
+	name varchar(25) not null,
+	age tinyint unsigned default 0 not null
+);
+*/
+
+import (
+	"database/sql"
+	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
 	"time"
